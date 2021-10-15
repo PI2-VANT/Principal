@@ -3,7 +3,7 @@
 
 ## Manual de instalação
 
-  Utilize o Makefile para realizar o download dos codigos, rodar/parar/apagar os containers com os serviços e remover os diretorios.
+  
 
 ### Requisitos
   Possuir instalado e configurado:
@@ -12,11 +12,9 @@
   - git
 
 ### Instruções
-  Em diretorio vazio copie o Makefile, presente neste repositorio, e cole no diretorio onde os codigos serão armazenados.
-
-*Observação*: Os comandos podem ser seguidos, copiando as instruções presente no Makefile.
 
 ####  Passos(Linux)
+	Utilize o Makefile para realizar o download dos codigos, rodar/parar/apagar os containers com os serviços e remover os diretorios.
 1. Download dos codigos:
 
     ``$ make install`` 

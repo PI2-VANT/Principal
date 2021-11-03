@@ -1,14 +1,15 @@
 # PI2 GRUPO 3-VANT
 
 
-## Manual de instalação
+## Desmonstração
+    Video de demonstração disponivel na pasta data.
 
-  
+## Manual de instalação
 
 ### Requisitos
   Possuir instalado e configurado:
-  - docker
-  - docker-compose
+  - [docker](./data/P2_Monitoring.mp4)
+  - [docker-compose](https://docs.docker.com/compose/install/)
   - git
 
 ### Instruções
@@ -88,3 +89,23 @@
 
         rm -rf ./Backend-Gateway
 
+
+#### Script de simulação
+
+Script para fazer a simulação de um voo com o vant, onde os dados simulados serão passados para os serviços.
+
+Possuir instalado e configurado:
+- python3
+- biblioteca pika 
+
+Para executar:
+- ir para diretorio do serviço de monitoramento
+    
+    - execute:
+        
+        ```$ python3 sender.py```
+
+
+#### Para monitorar
+
+Após efetuar seu cadastro, cadastre um vant(pelo navegador) com o registrationCode **oo2x**. Execute o script sender.py(passo anterior) e no navegador clic no vant, monitorar.
